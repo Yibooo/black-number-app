@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="595" height="842" viewBox="0 0 595 842" font-family="'Hiragino Mincho ProN','Yu Mincho',serif">
+  <rect width="595" height="842" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="594" height="841" fill="none" stroke="#cccccc"/>
+  <text x="297" y="78" text-anchor="middle" font-size="22" letter-spacing="6" fill="#111">運 賃 料 金 表</text>
+  <text x="297" y="102" text-anchor="middle" font-size="12" fill="#777">（貨物軽自動車運送事業）</text>
+  <text x="555" y="140" text-anchor="end" font-size="13" fill="#333">事業者名：<tspan fill="#1d4ed8" font-weight="bold">山田 太郎</tspan></text>
+
+  <!-- distance table -->
+  <rect x="40" y="170" width="515" height="30" fill="#eeeeee" stroke="#333"/>
+  <text x="297" y="190" text-anchor="middle" font-size="13" fill="#111">距離制運賃</text>
+  <g stroke="#333" stroke-width="1">
+    <rect x="40" y="200" width="515" height="30" fill="#f7f7f7"/>
+    <rect x="40" y="230" width="515" height="64" fill="none"/>
+    <line x1="40" y1="262" x2="555" y2="262"/>
+    <line x1="240" y1="200" x2="240" y2="294"/>
+    <line x1="460" y1="200" x2="460" y2="294"/>
+  </g>
+  <g font-size="12">
+    <text x="120" y="220" text-anchor="middle" fill="#333">区　間</text>
+    <text x="350" y="220" text-anchor="middle" fill="#333">運　賃</text>
+    <text x="507" y="220" text-anchor="middle" fill="#333">備考</text>
+    <text x="52" y="252" fill="#333">初乗り（2kmまで）</text>
+    <text x="252" y="252" fill="#1d4ed8" font-weight="bold">800円</text>
+    <text x="507" y="252" text-anchor="middle" fill="#999">—</text>
+    <text x="52" y="284" fill="#333">2km超 1kmごと</text>
+    <text x="252" y="284" fill="#1d4ed8" font-weight="bold">200円 加算</text>
+    <text x="507" y="284" text-anchor="middle" fill="#999">—</text>
+  </g>
+
+  <!-- time table -->
+  <rect x="40" y="324" width="515" height="30" fill="#eeeeee" stroke="#333"/>
+  <text x="297" y="344" text-anchor="middle" font-size="13" fill="#111">時間制運賃・料金</text>
+  <g stroke="#333" stroke-width="1">
+    <rect x="40" y="354" width="515" height="64" fill="none"/>
+    <line x1="40" y1="386" x2="555" y2="386"/>
+    <line x1="360" y1="354" x2="360" y2="418"/>
+  </g>
+  <g font-size="12">
+    <text x="52" y="376" fill="#333">時間制運賃（1時間）</text>
+    <text x="372" y="376" fill="#1d4ed8" font-weight="bold">4,000円</text>
+    <text x="52" y="408" fill="#333">待機料金（30分ごと）</text>
+    <text x="372" y="408" fill="#1d4ed8" font-weight="bold">500円</text>
+  </g>
+
+  <rect x="40" y="448" width="515" height="40" fill="#fffbea" stroke="#f3e2a9"/>
+  <text x="52" y="464" font-size="11" fill="#92710b">※ 金額は「AmazonFlex向け標準」テンプレートの例示です。運賃は事業者が</text>
+  <text x="52" y="480" font-size="11" fill="#92710b">　 自由に設定できます（テンプレート選択または手動入力）。</text>
+
+  <text x="297" y="800" text-anchor="middle" font-size="9" fill="#bbb">黒ナンバー書類自動生成アプリ — 記入見本（サンプル: 山田太郎/東京）</text>
+</svg>

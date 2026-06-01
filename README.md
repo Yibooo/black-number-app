@@ -32,6 +32,7 @@ AmazonFlex・Uberなどで軽自動車を使って配送業を始める事業者
 
 - [要件定義書](./docs/requirements.md)
 - [技術設計書](./docs/technical-design.md)
+- [書類の記入仕様・記入例（書き方見本）](./docs/forms/README.md) — 各書類の「どの欄に何を書くか」と記入見本画像。フォーム実装・PDF出力の*正解*の土台
 
 ## ローカル開発
 
